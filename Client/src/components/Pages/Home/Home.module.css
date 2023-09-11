@@ -1,0 +1,29 @@
+.parentCard{
+    display: flex;
+   flex-direction: column;
+   margin-top: 1rem;
+    /* width: 100vw;
+    height: 100vh; */
+    z-index: 1;
+}
+
+.pagination{
+    display: flex;
+    position: relative;
+    justify-content: center; 
+    width: 50%;
+    font-weight: bold;
+    gap: 2rem;
+    top: 2rem;
+    left: 8rem;
+    border: 1px solid black;
+}
+.search{
+    display: flex;
+    position: relative;
+    left: 10rem;
+    width: 50%;
+    flex-direction: column;
+
+}
+

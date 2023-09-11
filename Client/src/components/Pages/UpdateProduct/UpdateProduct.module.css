@@ -1,0 +1,13 @@
+.parent{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    left: 20rem;
+    flex-direction: column;
+    width: 50%;
+}

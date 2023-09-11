@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    left: 20rem;
+    flex-direction: column;
+    width: 50%;
+}
+
+.formContainer{
+   
+}
