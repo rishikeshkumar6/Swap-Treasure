@@ -23,7 +23,7 @@ const Login = () => {
       const response=await request.data
       const authentication=await response.auth
       const data=await response.result
-       localStorage.setItem("userData",JSON.stringify(data))
+       localStorage.setItem("userData",JSON.stringify([data]))
         localStorage.setItem("Token",JSON.stringify(authentication))
       if(data){
           navigate('/')
